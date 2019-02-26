@@ -1,3 +1,5 @@
+ppx_deriving_tupleable.install
+
 *.annot
 *.cmo
 *.cma

@@ -1,0 +1,8 @@
+(library
+ (name ppx_deriving_tupleable)
+ (public_name ppx_deriving_tupleable)
+ (synopsis "[@@deriving tupleable]")
+ (libraries ppx_deriving ppx_deriving.api)
+ (modules ppx_deriving_tupleable)
+ (kind ppx_deriver)
+ (flags (:standard -w -9)))

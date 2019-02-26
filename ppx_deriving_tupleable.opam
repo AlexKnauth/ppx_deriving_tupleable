@@ -1,0 +1,16 @@
+opam-version: "2.0.2"
+maintainer: "Alex Knauth <alexander@knauth.org>"
+authors: [ "Alex Knauth <alexander@knauth.org>" ]
+tags: [ "syntax" ]
+depends: [
+  "ocaml" {>= "4.07.1"}
+  "ppx_deriving" {>= "4.2.1"}
+]
+synopsis:
+  "Converting OCaml record types to tuples and back"
+description: """
+ppx_deriving_tupleable is a preprocessor plugin that allows you
+to place `[@@deriving tupleable]` annotations onto type
+definitions, to automatically generate `to_tuple` and
+`of_tuple` functions for that type.
+"""

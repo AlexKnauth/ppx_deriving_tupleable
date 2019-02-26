@@ -1,0 +1,5 @@
+(tests
+ (names ppx_deriving_tupleable_test)
+ (libraries oUnit result)
+ (preprocess (pps ppx_deriving ppx_deriving.show ppx_deriving_tupleable))
+ (flags (:standard -w -9-39-27-34-37)))
